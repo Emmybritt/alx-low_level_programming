@@ -17,7 +17,6 @@ n = rand() - RAND_MAX / 2;
 lastNum = n % 10;
 while (n != 0)
 {
-n = n / 10;
 count++;
 }
 if (count == 3 && n > 5)

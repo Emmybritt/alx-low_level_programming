@@ -8,16 +8,16 @@
 int main(void)
 {
 char ch = 'a';
+char nel = 'A';
 while (ch <= 'z')
 {
 putchar(ch);
 ch++;
 }
-char cl = 'A';
-while (cl <= 'Z')
+while (nel <= 'Z')
 {
-putchar(cl);
-cl++;
+putchar(nel);
+nel++;
 }
 putchar('\n');
 return (0);

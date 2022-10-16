@@ -18,6 +18,7 @@ lastNum = n % 10;
 while (n != 0)
 {
 count++;
+n = n;
 }
 if (count == 3 && n > 5)
 {

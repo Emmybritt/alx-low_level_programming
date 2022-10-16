@@ -7,12 +7,8 @@
  */
 int main(void)
 {
-int i = 0;
-char num [] = "0123456789";
-for (i = 0; i < 10; i++)
-{
-putchar(num[i]);
-}
+long int i = 012345;
+putchar(i%10 + '0');
 putchar('\n');
 return (0);
 }

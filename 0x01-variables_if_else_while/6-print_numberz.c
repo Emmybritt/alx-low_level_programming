@@ -8,7 +8,7 @@
 int main(void)
 {
 long int i = 012345;
-putchar(i%10 + '0');
+putchar(i);
 putchar('\n');
 return (0);
 }

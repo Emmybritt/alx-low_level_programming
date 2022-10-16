@@ -20,7 +20,7 @@ while (n != 0)
 count++;
 n = n;
 }
-if (n > 5 count == 3)
+if (n > 5 && count == 3)
 {
 printf("Last digit of %d is %d and is 0", n, lastNum);
 }

@@ -20,11 +20,11 @@ while (n != 0)
 count++;
 n = n;
 }
-if (count == 3 && n > 5)
+if (n > 5 count == 3)
 {
 printf("Last digit of %d is %d and is 0", n, lastNum);
 }
-else if (n > 5)
+if (n > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, lastNum);
 }

@@ -15,11 +15,7 @@ int n, count, lastNum;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastNum = n % 10;
-while (n != 0)
-{
-count++;
-n = n;
-}
+count = 3;
 if (n > 5 && count == 3)
 {
 printf("Last digit of %d is %d and is 0", n, lastNum);

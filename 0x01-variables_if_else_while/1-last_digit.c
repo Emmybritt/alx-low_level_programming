@@ -18,7 +18,7 @@ lastNum = n % 10;
 count = 3;
 if (n > 5 && count == 3)
 {
-printf("Last digit of %d is %d and is 0", n, lastNum);
+printf("Last digit of %d is %d and is 0\n", n, lastNum);
 }
 else if (n > 5)
 {

@@ -11,7 +11,7 @@ long value = 123456;
 /**
 *while (ch <= 'z')
 {*/
-putchar((value%10) + '0');
+putchar((value) + '0');
 /**
 ch++;
 }*/

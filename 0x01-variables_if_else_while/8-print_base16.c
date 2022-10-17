@@ -8,10 +8,9 @@
 int main(void)
 {
 char ch = 0;
-while (ch <= 15)
+for (ch = 0; ch <= 15; ch++)
 {
 putchar(ch);
-ch++;
 }
 putchar('\n');
 return (0);
